@@ -1,0 +1,62 @@
+.main {
+    width: 500px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.main label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.main input,
+.main select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.main input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.main input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.main h2 {
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.main h2 a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.main h2 a:hover {
+  text-decoration: underline;
+}
+
+.main h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.main .form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .form-column {
+  flex-basis: 45%; /* Adjust this value to control the width of the columns */
+}

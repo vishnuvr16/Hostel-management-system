@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/login.css">
+<title>Login</title>
+<style>
+    img{
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+<div id='container'>
+  <div>
+        <center><img src="images/rgukt.jpeg" alt="Rgukt Logo" title="Ongole campus"/></center>
+		<h1 style="font-variant: small-caps;">hostel management system</h1>
+		<form action="securityLogin.php" method="post">
+			<input type="email" name="email" placeholder="Email" autocomplete="off" required>
+			<input type="password" name="password" placeholder="Password" autocomplete="off" required>
+			<input type="submit" value="Login" class="login_btn" style="border-radius:20px">
+		</form>
+		<div class="text">
+			<a href="adminLogin.html">Admin</a>
+			<a href="index.html">Student</a>
+		</div>
+	</div>
+  </div>
+</body>
